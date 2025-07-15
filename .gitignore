@@ -1,0 +1,82 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build directories
+build/
+dist/
+.next/
+out/
+
+# IDE/Editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Debug logs
+*.log
+logs/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# MongoDB
+/data/db/
+*.ns
+*.0
+*.1
+
+# React
+*.css.map
+*.js.map
+*.js.LICENSE.txt
+
+# Serverless
+.serverless/
+
+# TypeScript
+*.tsbuildinfo
+
+# Production
+.cache/
+.turbo/
+
+# Misc
+*.pem
+dump.rdb
