@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a Camp Ground</title>
+  </head>
+  <body>
+    <h1>Create a Camp Ground</h1>
+    <form action="/campgrounds" method="POST">
+      <div>
+        <label for="title">Camp Title</label>
+        <input type="text" id="title" name="campground[title]" required />
+      </div>
+      <div>
+        <label for="location">Camp Location</label>
+        <input type="text" id="location" name="campground[location]" required />
+      </div>
+      <button type="submit">Add Camp Ground</button>
+    </form>
+    <br />
+    <a href="/campgrounds">Back to Campgrounds</a>
+  </body>
+</html>
